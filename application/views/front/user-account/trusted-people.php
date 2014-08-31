@@ -53,7 +53,7 @@
             <div class="send_bitcoin right">
                 <div class="send_bitcoin_in invite_friend_in">
                     <div class="page_head">
-                        <h5><?php echo lang('invite_friends_to'); ?> cryptosi.com</h5>
+                        <h5><?php echo lang('invite_friends_to'); ?> Cryptosi.com</h5>
                     </div>
                     <div class="info_send">
                         <span><?php echo lang('invited_friends_gain_access_your_trusted_advertisements'); ?>.</span>                        	

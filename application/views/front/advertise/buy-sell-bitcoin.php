@@ -34,9 +34,9 @@ else
                     <div class="send_bitcoin_in invite_friend_in">
                         <div class="page_head">
                             <?php if (($arr_trade_bitcoin_details['trade_type'] == 'buy_c') || ($arr_trade_bitcoin_details['trade_type'] == 'buy_o')) { ?>
-                                <h5>cryptoSi.com <?php echo lang('user'); ?> <?php echo $arr_trade_bitcoin_details['user_name']; ?> <?php echo lang('wishes_to_buy_bitcoins_from_you'); ?>.</h5>
+                                <h5>Cryptosi.com <?php echo lang('user'); ?> <?php echo $arr_trade_bitcoin_details['user_name']; ?> <?php echo lang('wishes_to_buy_bitcoins_from_you'); ?>.</h5>
                             <?php } else { ?>
-								<h5>cryptoSi.com <?php echo lang('user'); ?> <?php echo $arr_trade_bitcoin_details['user_name']; ?> <?php echo lang('wishes_to_sell_bitcoins_to_you'); ?>.</h5>                                
+								<h5>Cryptosi.com <?php echo lang('user'); ?> <?php echo $arr_trade_bitcoin_details['user_name']; ?> <?php echo lang('wishes_to_sell_bitcoins_to_you'); ?>.</h5>                                
                             <?php } ?>
                         </div>
                         <div class="info_send user_info">
@@ -129,9 +129,9 @@ else
                                         <div class="tabs_slide"> <a class="toggle two" href="javascript:void(0);" id="refund_notice" onclick="showDiv('pay_ol','two')"><span>&nbsp;</span> <?php echo lang('how_to_pay_online'); ?></a>
                                             <div class="tabs_data active" id="pay_ol" style="display:none;">
                                                 <p>                                                                                    After sending the trade request you get the payment details.
-                                                    Trader may not publish the payment details directly and asks you to contact to get the exact account name needed for the payment. In this case send a LocalBitcoins.com message to the the trader and ask for the furher details.
+                                                    Trader may not publish the payment details directly and asks you to contact to get the exact account name needed for the payment. In this case send a Cryptosi.com message to the the trader and ask for the furher details.
                                                     When buying bitcoins online, the payment window is 90 minutes, but this may vary depending on the payment method and the terms of the trade.
-                                                    If you need help how to make the payment use LocalBitcoins.com messaging to discuss with the trader how to make the payment..</p>
+                                                    If you need help how to make the payment use Cryptosi.com messaging to discuss with the trader how to make the payment..</p>
                                             </div>
                                         </div>
                                         <div class="tabs_slide"> <a class="toggle three" href="javascript:void(0);" id="refund_notice" onclick="showDiv('cancel_trade','three')" ><span>&nbsp;</span><?php echo lang('cancelling_the_trade'); ?></a>
@@ -212,7 +212,7 @@ else
                             <div class="page_head">
                                 <h5><?php echo lang('how_to_proceed'); ?></h5>
                             </div>
-                            <span>Submit a trade request using the form above if you want physical cash pickup or delivery or otherwise contact the trader. No hardware needed on your part, just bring the cash and request the verify code from the seller. Funds will be available in your cryptosi.com wallet. </span>              	
+                            <span>Submit a trade request using the form above if you want physical cash pickup or delivery or otherwise contact the trader. No hardware needed on your part, just bring the cash and request the verify code from the seller. Funds will be available in your Cryptosi.com wallet. </span>              	
                         </div>
                     </div>                	
                 </div>

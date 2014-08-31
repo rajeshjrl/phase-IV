@@ -970,9 +970,9 @@ class Advertise extends CI_Controller {
             }
 
             if (($arr_trade_bitcoin_details[0]['trade_type'] == 'buy_c') || ($arr_trade_bitcoin_details[0]['trade_type'] == 'buy_o')) {
-                $description .='cryptoSi.com user ' . $arr_trade_bitcoin_details[0]['user_name'] . ' wishes to buy bitcoins from you';
+                $description .='Cryptosi.com user ' . $arr_trade_bitcoin_details[0]['user_name'] . ' wishes to buy bitcoins from you';
             } else {
-                $description .='cryptoSi.com user ' . $arr_trade_bitcoin_details[0]['user_name'] . ' wishes to sell bitcoins to you';
+                $description .='Cryptosi.com user ' . $arr_trade_bitcoin_details[0]['user_name'] . ' wishes to sell bitcoins to you';
             }
 
             $data['description'] = $description;

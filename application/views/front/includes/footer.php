@@ -9,7 +9,7 @@
         <div class="page_inner">
             <div class="company_footer">
                 <div class="logo_link">
-                    <a href="<?php echo base_url(); ?>"><span>&nbsp;</span>cryptosi.com</a>
+                    <a href="<?php echo base_url(); ?>"><span>&nbsp;</span>Cryptosi.com</a>
                 </div>
                 <div class="footer_nav">
                     <ul>
@@ -41,7 +41,7 @@
                             <li><a class="google_plus" href="<?php echo $global['google_plus_link']; ?>" target="_blank"><span>&nbsp;</span>Google plus</a></li>
                             <li><a class="blog" href="<?php echo $global['blog_link']; ?>" target="_blank"><span>&nbsp;</span>Blog</a></li>
                         </ul>
-                        <div class="copyright_sect">&copy;2014 <a href="<?php echo base_url(); ?>">cryptosi.com</a> <?php echo lang('all_rights_reserved'); ?>.</div>
+                        <div class="copyright_sect">&copy;2014 <a href="<?php echo base_url(); ?>">Cryptosi.com</a> <?php echo lang('all_rights_reserved'); ?>.</div>
                     </div>
                     <div class="copyright_sect"><?php echo lang('feedback_and_questions_are_very_welcome_to'); ?><br/><a href="<?php echo base_url() ?>support-and-contact"><?php echo lang('our_support_and_contact_form'); ?></a></div>
                 </div>

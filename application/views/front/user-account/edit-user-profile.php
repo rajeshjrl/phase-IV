@@ -35,7 +35,7 @@
                                                     </div>
                                                     <div class="info_fieldset">
                                                         <div class="label"><input type="checkbox"  name="cash_txn_auto_funding" id="cash_txn_auto_funding"   value="y" title="cash_txn_auto_funding" <?php echo ($arr_user_data['cash_txn_auto_funding'] == 'y') ? "checked='checked'" : ''; ?>> <?php echo lang('cash_transactions_auto_fund'); ?></div>
-                                                        <div class="label_data"><em>Select this, if you want to speed up processing cash trades. Your received cash trade offers will be funded automatically from your cryptosi.com wallet.</em></div>
+                                                        <div class="label_data"><em>Select this, if you want to speed up processing cash trades. Your received cash trade offers will be funded automatically from your Cryptosi.com wallet.</em></div>
                                                     </div>
                                                     <div class="info_fieldset">
                                                         <div class="label"><input type="checkbox"  name="selling_vacation" id="selling_vacation"  <?php echo ($arr_user_data['selling_vacation'] == 'y') ? "checked" : ''; ?>   value="y"  title="selling_vacation"><?php echo lang('selling_vacation'); ?></div>

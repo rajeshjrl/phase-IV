@@ -39,7 +39,7 @@
                         <div class="box-icon">
                             <!--<a title="Add new Currency" class="btn btn-plus btn-round" href="<?php echo base_url(); ?>backend/currency/add-currency"><i class="icon-plus"></i></a>-->
                         </div>
-                    </div                    
+                    </div>                    
                     <br>
                         <!--[sortable body]-->
                         <div class="box-content">

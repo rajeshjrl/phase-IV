@@ -156,7 +156,7 @@
                     </div>
                     <div class="guide_data">
                         <h4><a  title="" href="<?php echo base_url(); ?>cms/17/guides" ><?php echo lang('starter_guide'); ?></a></h4>
-                        <p>LocalBitcoins.com <?php echo lang('is_a_marketplace_for_trading_bitcoins_locally_to_cash_or_online_payments_of_your_choice   '); ?>.</p>
+                        <p>Cryptosi.com<?php echo lang('is_a_marketplace_for_trading_bitcoins_locally_to_cash_or_online_payments_of_your_choice   '); ?>.</p>
                     </div>
                 </div>
                 <div class="guide_sec">
@@ -165,7 +165,7 @@
                     </div>
                     <div class="guide_data">
                         <h4><a  title="" href="<?php echo base_url(); ?>cms/17/selling-bitcoins-online-guide" ><?php echo lang('online_trader_guide'); ?></a></h4>
-                        <p>LocalBitcoins.com is a marketplace for trading bitcoins locally to cash or online payments of your choice.</p>
+                        <p>Cryptosi.com is a marketplace for trading bitcoins locally to cash or online payments of your choice.</p>
                     </div>
                 </div>
                 <div class="guide_sec last">
@@ -174,17 +174,17 @@
                     </div>
                     <div class="guide_data">
                         <h4><a  title="" href="<?php echo base_url(); ?>cms/17/faq" ><?php echo lang('faqs'); ?></a></h4>
-                        <p>LocalBitcoins.com is a marketplace for trading bitcoins locally to cash or online payments of your choice.</p>
+                        <p>Cryptosi.com is a marketplace for trading bitcoins locally to cash or online payments of your choice.</p>
                     </div>
                 </div>
-                <div class="guide_adv">
+                <!-- <div class="guide_adv">
                     <div class="adv_sec">
                         <img src="<?php echo base_url(); ?>media/front/images/adv01.png" alt="adv01">
                     </div>
                     <div class="adv_sec last">
                         <img src="<?php echo base_url(); ?>media/front/images/adv02.png">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

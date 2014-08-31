@@ -35,7 +35,7 @@
         <div class="footer_right_in">
             <div class="page_inner">
                 <div class="latest_update">
-                    <div class="latest_update_head"><a href="<?php echo $global['blog_link']; ?>" target="_blank">cryptosi.com news<span class="rss">&nbsp;</span></a></div>
+                    <div class="latest_update_head"><a href="<?php echo $global['blog_link']; ?>" target="_blank">Cryptosi.com news<span class="rss">&nbsp;</span></a></div>
                     <div class="latest_update_data">
 						<?php foreach($arr_blogpost as $post) { ?>
                         <div class="latest_update_content">
@@ -57,7 +57,7 @@
     </div>
     <div class="right_footer">
         <div class="footer_right_in">
-            <a href="<?php echo $global['blog_link']; ?>" target="_blank" class="find_links"><?php echo lang('read_more_at'); ?> <span>cryptosi.com blog</span></a>
+            <a href="<?php echo $global['blog_link']; ?>" target="_blank" class="find_links"><?php echo lang('read_more_at'); ?> <span>Cryptosi.com blog</span></a>
         </div>
     </div>
 </div>

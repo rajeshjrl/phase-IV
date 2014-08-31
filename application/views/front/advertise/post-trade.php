@@ -237,7 +237,7 @@
                                             <div for="max_amt" class="error" style=""></div>
                                         </div>
                                         <div class="info_data">
-                                            <p><em>Optional. Maximum transaction limit in one trade. For online sells, your cryptosi.com wallet balance may limit the maximum fundable trade also.</em></p>
+                                            <p><em>Optional. Maximum transaction limit in one trade. For online sells, your Cryptosi.com wallet balance may limit the maximum fundable trade also.</em></p>
                                         </div>
                                     </fieldset>
                                     <fieldset>
@@ -264,7 +264,7 @@
                                             <textarea rows="8" name="other_info" id="other_info"></textarea>                                        
                                         </div>
                                         <div class="info_data">
-                                            <p><em> Other information you wish to tell about your trading. Example 1: <strong>This advertisement is only for cash trades. If you want to pay online, contact cryptosi.com/ad/1234.</strong> Example 2: <strong>Please make request only when you can complete the payment with cash within 12 hours</strong></em></p>
+                                            <p><em> Other information you wish to tell about your trading. Example 1: <strong>This advertisement is only for cash trades. If you want to pay online, contact Cryptosi.com/ad/1234.</strong> Example 2: <strong>Please make request only when you can complete the payment with cash within 12 hours</strong></em></p>
                                         </div>
                                     </fieldset>                                   
                                 </div>
@@ -342,7 +342,7 @@
                                             <option value="NUMERIC"><?php echo lang('numbers_only'); ?></option>
                                         </select>
                                         <div class="info_data">
-                                            <p><em>The kind of a payment reference number is generated for transfer. cryptosi.com generates a reference number for transfer which allows you to match money transfers to cryptosi.com contacts.</em></p>
+                                            <p><em>The kind of a payment reference number is generated for transfer. Cryptosi.com generates a reference number for transfer which allows you to match money transfers to Cryptosi.com contacts.</em></p>
                                         </div>                                    
                                     </fieldset>
                                 </div>

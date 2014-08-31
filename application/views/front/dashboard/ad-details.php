@@ -229,7 +229,7 @@
 							
 							<span style="font-size:28px;font-weight:bold;">Contact is no longer active</span>
 							<span><strong><?php echo $arr_trade_request_details['action_taken_user'];?> have cancelled the contact.</strong></span>
-							<span><a href="<?php echo base_url();?>wallet">The possible transaction funds have been returned to your cryptosi.com wallet.</a></span>
+							<span><a href="<?php echo base_url();?>wallet">The possible transaction funds have been returned to your Cryptosi.com wallet.</a></span>
 							
 						</div>
 					</div>
