@@ -264,7 +264,7 @@ CREATE TABLE IF NOT EXISTS `p784_mst_email_templates` (
 --
 
 INSERT INTO `p784_mst_email_templates` (`email_template_id`, `email_template_title`, `email_template_subject`, `email_template_content`, `lang_id`, `created_by`, `date_created`, `date_updated`) VALUES
-(1, 'registration-successful', 'p784 - Registration Successful', '<p>\\n	Dear ||USER_NAME||,</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Your registration has&nbsp; been completed suceessfully. Please click on following link and activitae your account to login.</p>\\n<p>\\n	Activation link :&nbsp;</p>\\n<p>\\n	||ACTIVATION_LINK||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Buy bitcoins - quick start guide : ||QUICK_GUIDE||</p>\\n<p>\\n	Frequently asked questions : ||FAQS||</p>\\n<p>\\n	Discussion Forum : ||DISCUSSION_FORUM||</p>\\n<p>\\n	About Us : ||ABOUT_US||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Your Sincerely,</p>\\n<p>\\n	||SITE_TITLE||,</p>\\n<p>\\n	||SITE_URL||</p>\\n', 17, 1, '2013-12-10', '2014-03-03'),
+(1, 'registration-successful', 'Cryptosi - Registration Successful', '<p>\\n	Dear ||USER_NAME||,</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Your registration has&nbsp; been completed suceessfully. Please click on following link and activitae your account to login.</p>\\n<p>\\n	Activation link :&nbsp;</p>\\n<p>\\n	||ACTIVATION_LINK||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Buy bitcoins - quick start guide : ||QUICK_GUIDE||</p>\\n<p>\\n	Frequently asked questions : ||FAQS||</p>\\n<p>\\n	Discussion Forum : ||DISCUSSION_FORUM||</p>\\n<p>\\n	About Us : ||ABOUT_US||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Your Sincerely,</p>\\n<p>\\n	||SITE_TITLE||,</p>\\n<p>\\n	||SITE_URL||</p>\\n', 17, 1, '2013-12-10', '2014-03-03'),
 (3, 'admin-added', 'You have been added as admin user.', '<p>\\n	Dear ||ADMIN_NAME||,</p>\\n<p>\\n	You have been added as admin user on ||SITE_TITLE||, Please activate your account by clicking on activation link test.</p>\\n<p>\\n	Username:||USER_NAME||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Click on Following link to activate you account.</p>\\n<p>\\n	||ADMIN_ACTIVATION_LINK||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Thank you,</p>\\n<p>\\n	||SITE_TITLE||</p>\\n<p>\\n	||SITE_PATH||</p>\\n', 17, 1, '2012-12-18', '2014-02-27'),
 (4, 'admin-updated', 'Your account has been updated', '<p>\\n	Dear ||ADMIN_NAME||,</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Your account has been updated on ||SITE_TITLE||,&nbsp; Please activate your account by clicking on activation link test.</p>\\n<p>\\n	Username:||USER_NAME||</p>\\n<p>\\n	Click on Following link to Log in.</p>\\n<p>\\n	||ADMIN_LOGIN_LINK||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Thank you,</p>\\n<p>\\n	||SITE_TITLE||</p>\\n<p>\\n	||SITE_PATH||</p>\\n', 17, 1, '2012-12-18', '2014-02-27'),
 (5, 'admin-deleted', 'Your account has been deleted.', '<p>	Dear ||ADMIN_NAME||,</p><p>	&nbsp;</p><p>	Your admin account has been deleted on ||SITE_TITLE||</p><p>	You may contact with ||SITE_TITLE|| administrator for more details.</p><p>	&nbsp;</p><p>	Thank you,</p><p>	||SITE_TITLE||</p><p>	||SITE_PATH||</p><p>	&nbsp;</p>', 17, 4, '2012-12-18', '2013-12-18'),
@@ -272,7 +272,6 @@ INSERT INTO `p784_mst_email_templates` (`email_template_id`, `email_template_tit
 (7, 'admin-email-updated', 'Verify updated Account', '<p>\\n	Dear ||USER_NAME||,</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Your account has been updated on ||SITE_TITLE||, &nbsp;Please activate your account by clicking on activation link.</p>\\n<p>\\n	Username:||USER_NAME||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Click on Following link to verify your account</p>\\n<p>\\n	||ADMIN_ACTIVATION_LINK||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Thank you,</p>\\n<p>\\n	||SITE_TITLE||</p>\\n<p>\\n	||SITE_PATH||</p>\\n', 17, 1, '2012-12-18', '2014-02-28'),
 (8, 'contact-us-email', 'Customer Query', '<p><span style=\\"font-size:14px;\\">Dear ||ADMIN_NAME||,</span></p>\\n\\n<p>\\n	<span style=\\"font-size: 14px; color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; \\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;You have received this mail from the ||USER_EMAIL|| to clerify his question</span></p>\\n<div data-mce-style=\\"margin: 0px;\\" style=\\"color: rgb(0, 0, 0); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin: 0px; \\">\\n	<span style=\\"font-size: 14px; \\">||MESSAGE||&nbsp;</span></div>\\n<div>\\n	&nbsp;</div>\\n<p>\\n	<span style=\\"font-size: 14px; \\">Thank you,</span></p>\\n<p>\\n	<span style=\\"font-size:14px;\\">||USER_EMAIL||</span></p>\\n', 17, 1, '2012-12-18', '2014-02-01'),
 (9, 'user-email-updated', 'Verify updated e-mail', '<p>\\n	Dear ||USER_NAME||,</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Your email address has been updated on ||SITE_TITLE||,&nbsp; your verification link as follows</p>\\n<p>\\n	Click on Following link to verify your account</p>\\n<p>\\n	||ACTIVATION_LINK||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Thank you,</p>\\n<p>\\n	||SITE_TITLE||</p>\\n<p>\\n	||SITE_PATH||</p>\\n', 17, 1, '2012-12-18', '2014-02-04'),
-(10, 'admin-registration-successful', 'p784 -Admin  Registration Successful', '<p>\\n	Dear ||USER_NAME||,</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Your registration has&nbsp; been completed suceessfully. Please click on following link and activitae your account to login.</p>\\n<p>\\n	Activation link :&nbsp;</p>\\n<p>\\n	||ACTIVATION_LINK||</p>\\n<p>\\n	&nbsp;</p>\\n<p>\\n	Your Sincerely,</p>\\n<p>\\n	||SITE_TITLE||,</p>\\n<p>\\n	||SITE_URL||</p>\\n', 17, 1, '2013-12-10', '2014-02-28');
 
 -- --------------------------------------------------------
 
@@ -671,7 +670,7 @@ INSERT INTO `p784_secondary_email` (`email_log_id`, `user_id`, `secondary_email`
 (1, 93, 'sangeeta@panaceatek.com', '2014-02-28 00:38:55', '13935677351316626409', '1', '2014-02-28 06:08:55'),
 (2, 93, 'sarita@panaceatek.com', '2014-02-28 01:11:05', '1393569665746056732', '0', '2014-02-28 06:41:05'),
 (4, 94, 'pragati@panaceatek.com', '2014-02-28 01:24:15', '13935704551461881056', '0', '2014-02-28 06:54:15'),
-(11, 94, 'san.kullolli@gmail.com', '2014-02-28 06:20:44', '13935882441891416450', '0', '2014-02-28 11:50:44'),
+(11, 94, 'william@cryptosi.com', '2014-02-28 06:20:44', '13935882441891416450', '0', '2014-02-28 11:50:44'),
 (12, 109, 'sandy231989@gmail.com', '2014-03-01 06:00:40', '13936734401682677997', '0', '2014-03-01 11:30:40');
 
 -- --------------------------------------------------------
@@ -885,11 +884,11 @@ CREATE TABLE IF NOT EXISTS `p784_trans_global_settings` (
 --
 
 INSERT INTO `p784_trans_global_settings` (`global_val_id`, `global_name_id`, `value`, `lang_id`) VALUES
-(1, 1, 'san.kullolli@gmail.com', 17),
-(2, 2, 'p784-sell&buybitcoin', 17),
-(4, 1, 'san.kullolli@gmail.com', 12),
+(1, 1, 'william@cryptosi.com', 17),
+(2, 2, 'cryptosi-sell&buybitcoin', 17),
+(4, 1, 'william@cryptosi.com', 12),
 (5, 2, 'Pipl Code Library', 12),
-(6, 3, 'san.kullolli@gmail.com', 17),
+(6, 3, 'william@cryptosi.com', 17),
 (7, 3, 'pradip@panaceatek.com', 12),
 (8, 4, 'F j, Y, g:i a', 17),
 (9, 4, 'm.d.y', 12),

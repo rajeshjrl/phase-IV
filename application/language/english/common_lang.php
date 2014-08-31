@@ -1,7 +1,7 @@
 <?php
 
-$lang['site_name'] = "p784-sell&buybitcoin";
-$lang['p784'] = "p784-sell&buybitcoin";
+$lang['site_name'] = "Cryptosi-sell&buybitcoin";
+$lang['p784'] = "Cryptosi-sell&buybitcoin";
 $lang['welcome'] = 'Welcome';
 $lang['home'] = 'Home';
 $lang['about'] = 'About';
