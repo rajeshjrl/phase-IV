@@ -110,7 +110,7 @@
                                         if ((is_array($currency_details)) && (count($currency_details) > 0)) {
                                             foreach ($currency_details as $currency) {
                                                 ?>
-                                                <option value="<?php echo $currency['currency_id']; ?>"><?php echo $currency['currency_code']; ?></option>
+                                                <option <?php if ($currency['currency_id'] == 1 ) echo 'selected'; ?> value="<?php echo $currency['currency_id']; ?>"><?php echo $currency['currency_code']; ?></option>
                                                 <?php
                                             }
                                         }
